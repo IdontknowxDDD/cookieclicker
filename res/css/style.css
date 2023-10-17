@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#Cookie{
+    position: absolute;
+    width: 250px;
+    top: 40%;
+    transition: .2s all;
+    cursor: pointer;
+}
+#Cookie:hover{
+    transform: scale(1.1);
+    transition: .2s all;
+}
+.nadpisy{
+    position: absolute;
+    display: block;
+    color: #fff;
+    text-align: center;
+    top: 5%;
+}
+.nadpisy h1{
+    margin-bottom: 8px;
+    font-size: 3rem;
+}
+.pozadi{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.cookie{
+    position: absolute;
+    display: flex;
+    left: 0;
+    width: 25%;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    border-right: 4px solid #222;
+}
+.farmy{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+}
+.farmy h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-bottom: 4px solid #222;
+    background-color: #333;
+}
+.obchod{
+    position: absolute;
+    left: 75%;
+    width: 25%;
+    top: 0;
+    bottom: 0;
+    border-left: 4px solid #222;
+}
+.obchod h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-bottom: 4px solid #222;
+    background-color: #333;
+}
+.buttons{
+    display: block;
+}
+button{
+    width: 300px;
+    margin-left: 90px;
+    margin-right: 60px;
+    margin-top: 50px;
+    padding: 30px;
+    border: none;
+    color: #000;
+    font-size: 1.4rem;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s all;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: .2s all;
+}
+.farm1{
+    background-image: url(../img/farm1.png);
+    width: 100%;
+    height: 30.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 4px solid black;
+}
+.farm2{
+    background-image: url(../img/farm2.png);
+    width: 100%;
+    height: 30.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.farm3{
+    background-image: url(../img/farm3.png);
+    width: 100%;
+    height: 30.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
